@@ -1,5 +1,15 @@
-import React from "react";
-import { Box, Button } from "@mui/material";
+import React, { useState } from "react";
+import {
+  Box,
+  Button,
+  IconButton,
+  Drawer,
+  List,
+  ListItemText,
+  useMediaQuery,
+  useTheme,
+  ListItemButton,
+} from "@mui/material";
 import { Link, useLocation } from "react-router-dom";
 import { colors } from "../../constants/colors";
 import { shadows } from "../../constants/shadows";
@@ -7,6 +17,7 @@ import IMCLogo from "../../assets/images/logo.png";
 import IMCTypography from "../IMCTypography";
 import { fontWeights } from "../../constants/fontWeights";
 import { useTranslation } from "react-i18next";
+import { Icons } from "../../constants/icons";
 
 const navLinks = [
   { label: "navbar.home", path: "/" },
@@ -20,6 +31,11 @@ const navLinks = [
 const Navbar: React.FC = () => {
   const location = useLocation();
   const { t } = useTranslation();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const handleDrawerToggle = () => setDrawerOpen(!drawerOpen);
 
   return (
     <Box
@@ -59,37 +75,87 @@ const Navbar: React.FC = () => {
         </IMCTypography>
       </Box>
 
-      <Box sx={{ display: "flex", gap: 2 }}>
-        {navLinks.map((link) => (
-          <Button
-            key={link.path}
-            component={Link}
-            to={link.path}
-            variant={location.pathname === link.path ? "contained" : "text"}
-            sx={{
-              fontWeight: fontWeights.semiBold,
-              textTransform: "none",
-              color:
-                location.pathname === link.path
-                  ? colors.primaryDarkBlue
-                  : colors.lightBlue,
-              backgroundColor:
-                location.pathname === link.path
-                  ? colors.lightGray
-                  : "transparent",
-              "&:hover": {
+      {!isMobile ? (
+        <Box sx={{ display: "flex", gap: 2 }}>
+          {navLinks.map((link) => (
+            <Button
+              key={link.path}
+              component={Link}
+              to={link.path}
+              variant={location.pathname === link.path ? "contained" : "text"}
+              sx={{
+                fontWeight: fontWeights.semiBold,
+                textTransform: "none",
+                color:
+                  location.pathname === link.path
+                    ? colors.primaryDarkBlue
+                    : colors.lightBlue,
                 backgroundColor:
                   location.pathname === link.path
-                    ? colors.teal
-                    : colors.mintGreen,
-                color: colors.white,
-              },
-            }}
-          >
-            {t(link.label)}
-          </Button>
-        ))}
-      </Box>
+                    ? colors.lightGray
+                    : "transparent",
+                "&:hover": {
+                  backgroundColor:
+                    location.pathname === link.path
+                      ? colors.teal
+                      : colors.mintGreen,
+                  color: colors.white,
+                },
+              }}
+            >
+              {t(link.label)}
+            </Button>
+          ))}
+        </Box>
+      ) : (
+        <>
+          <IconButton onClick={handleDrawerToggle} sx={{ color: colors.white }}>
+            <Icons.Menu />
+          </IconButton>
+
+          <Drawer anchor="right" open={drawerOpen} onClose={handleDrawerToggle}>
+            <Box
+              sx={{
+                width: 250,
+                padding: 2,
+                backgroundColor: colors.white,
+                height: "100%",
+              }}
+            >
+              <Box sx={{ display: "flex", justifyContent: "flex-end", mb: 2 }}>
+                <IconButton onClick={handleDrawerToggle}>
+                  <Icons.Close />
+                </IconButton>
+              </Box>
+              <List>
+                {navLinks.map((link) => (
+                  <ListItemButton
+                    key={link.path}
+                    component={Link}
+                    to={link.path}
+                    onClick={handleDrawerToggle}
+                    selected={location.pathname === link.path}
+                  >
+                    <ListItemText
+                      primary={t(link.label)}
+                      primaryTypographyProps={{
+                        fontWeight:
+                          location.pathname === link.path
+                            ? fontWeights.bold
+                            : fontWeights.regular,
+                        color:
+                          location.pathname === link.path
+                            ? colors.primaryDarkBlue
+                            : colors.teal,
+                      }}
+                    />
+                  </ListItemButton>
+                ))}
+              </List>
+            </Box>
+          </Drawer>
+        </>
+      )}
     </Box>
   );
 };

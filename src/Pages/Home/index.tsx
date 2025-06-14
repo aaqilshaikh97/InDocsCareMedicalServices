@@ -16,60 +16,6 @@ const Home = () => {
      </IMCTypography>
       <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
         This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
-     </IMCTypography> <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
      </IMCTypography>
     </>
   );
