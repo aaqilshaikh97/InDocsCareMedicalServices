@@ -1,0 +1,15 @@
+{
+  "welcome": "Welcome to InDocsCare",
+  "home": "Home",
+  "doctors": "Doctors",
+  "blogs": "Blogs",
+   "navbar": {
+    "home": "Home",
+    "transplants": "Transplants & Replacements",
+    "treatments": "Treatments & Surgeries",
+    "doctors": "Doctors",
+    "hospitals": "Hospitals",
+    "blogs": "Blogs",
+    "logoText": "InDocsCare Medical Services"
+  }
+}
