@@ -1,12 +1,12 @@
 import { Typography, useMediaQuery, useTheme } from "@mui/material";
 import { EMAIL, WHATSAPP } from "../../constants/contact";
-import { Icons } from "../../constants/icons";
+import { Icons } from "../../styles/icons";
 import IMCBox from "../IMCBox";
-import { colors } from "../../constants/colors";
-import { spacing } from "../../constants/spacing";
+import { colors } from "../../styles/colors";
+import { spacing } from "../../styles/spacing";
 import { useTranslation } from "react-i18next";
 import IMCDropDown from "../IMCDropdown";
-import { fontSizes } from "../../constants/fontSizes";
+import { fontSizes } from "../../styles/fontSizes";
 
 const options = [
   { label: "English", value: "en" },
@@ -25,13 +25,14 @@ const Header = () => {
 
   return (
     <IMCBox
-      backgroundColor={colors.white}
+      backgroundColor={colors.lightGray}
       style={{
         display: "flex",
         justifyContent: "space-between",
         flexDirection: isMobile ? "row" : "row",
         alignItems: "center",
         padding: spacing.none,
+        margin: spacing.none,
       }}
     >
       <IMCBox

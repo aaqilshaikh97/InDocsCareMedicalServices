@@ -1,6 +1,5 @@
 {
   "welcome": "Welcome to InDocsCare",
-  "home": "Home",
   "doctors": "Doctors",
   "blogs": "Blogs",
    "navbar": {
@@ -11,5 +10,29 @@
     "hospitals": "Hospitals",
     "blogs": "Blogs",
     "logoText": "InDocsCare Medical Services"
+  },
+ "home": {
+    "home": "Home",
+    "underDevelopment": "This page is under development"
+  },
+  "doctorsPage": {
+    "title": "Doctors",
+    "underDevelopment": "This page is under development"
+  },
+  "blogsPage": {
+    "title": "Blogs",
+    "underDevelopment": "This page is under development"
+  },
+  "treatmentsPage": {
+    "title": "Treatments & Surgeries",
+    "underDevelopment": "This page is under development"
+  },
+  "transplantsPage": {
+    "title": "Transplants & Replacements",
+    "underDevelopment": "This page is under development"
+  },
+  "hospitalsPage": {
+    "title": "Hospitals",
+    "underDevelopment": "This page is under development"
   }
 }

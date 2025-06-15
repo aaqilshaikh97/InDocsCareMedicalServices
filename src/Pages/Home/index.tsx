@@ -1,6 +1,6 @@
 import IMCTypography from "../../components/IMCTypography";
-import { fontSizes } from "../../constants/fontSizes";
-import { fontWeights } from "../../constants/fontWeights";
+import { fontSizes } from "../../styles/fontSizes";
+import { fontWeights } from "../../styles/fontWeights";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
@@ -9,13 +9,11 @@ const Home = () => {
   return (
     <>
      <IMCTypography variant="h3" size={fontSizes.lg} weight={fontWeights.semiBold}>
-        {t("navbar.home")}
+        {t("home.home")}
      </IMCTypography>
-     <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        {t("welcome")}
-     </IMCTypography>
+    
       <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
+        {t("home.underDevelopment")}
      </IMCTypography>
     </>
   );

@@ -11,13 +11,13 @@ import {
   ListItemButton,
 } from "@mui/material";
 import { Link, useLocation } from "react-router-dom";
-import { colors } from "../../constants/colors";
-import { shadows } from "../../constants/shadows";
+import { colors } from "../../styles/colors";
+import { shadows } from "../../styles/shadows";
 import IMCLogo from "../../assets/images/logo.png";
 import IMCTypography from "../IMCTypography";
-import { fontWeights } from "../../constants/fontWeights";
+import { fontWeights } from "../../styles/fontWeights";
 import { useTranslation } from "react-i18next";
-import { Icons } from "../../constants/icons";
+import { Icons } from "../../styles/icons";
 
 const navLinks = [
   { label: "navbar.home", path: "/" },

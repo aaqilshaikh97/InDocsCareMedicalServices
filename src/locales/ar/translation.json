@@ -8,5 +8,29 @@
     "hospitals": "المستشفيات",
     "blogs": "المدونات",
     "logoText": "خدمات إن دوكس كير الطبية"
+  },
+   "home": {
+    "home": "الرئيسية",
+    "underDevelopment": "هذه الصفحة قيد التطوير"
+  },
+  "doctorsPage": {
+    "title": "الأطباء",
+    "underDevelopment": "هذه الصفحة قيد التطوير"
+  },
+  "blogsPage": {
+    "title": "المدونات",
+    "underDevelopment": "هذه الصفحة قيد التطوير"
+  },
+  "treatmentsPage": {
+    "title": "العلاجات والعمليات الجراحية",
+    "underDevelopment": "هذه الصفحة قيد التطوير"
+  },
+  "transplantsPage": {
+    "title": "عمليات الزراعة والاستبدال",
+    "underDevelopment": "هذه الصفحة قيد التطوير"
+  },
+  "hospitalsPage": {
+    "title": "المستشفيات",
+    "underDevelopment": "هذه الصفحة قيد التطوير"
   }
 }

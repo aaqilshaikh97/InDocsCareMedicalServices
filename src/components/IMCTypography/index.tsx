@@ -1,8 +1,8 @@
 import React from "react";
-import { fontSizes } from "../../constants/fontSizes";
-import { fontWeights } from "../../constants/fontWeights";
-import { colors } from "../../constants/colors";
-import { fontFamily } from "../../constants/fontFamily";
+import { fontSizes } from "../../styles/fontSizes";
+import { fontWeights } from "../../styles/fontWeights";
+import { colors } from "../../styles/colors";
+import { fontFamily } from "../../styles/fontFamily";
 
 type Variant = "h1" | "h2" | "h3" | "subtitle" | "body" | "caption" | "label";
 

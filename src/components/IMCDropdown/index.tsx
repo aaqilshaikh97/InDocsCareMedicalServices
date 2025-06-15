@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { borders } from "../../constants/borders";
-import { borderRadius } from "../../constants/borderRadius";
-import { spacing } from "../../constants/spacing";
-import { colors } from "../../constants/colors";
-import { Icons } from "../../constants/icons";
+import { borders } from "../../styles/borders";
+import { borderRadius } from "../../styles/borderRadius";
+import { spacing } from "../../styles/spacing";
+import { colors } from "../../styles/colors";
+import { Icons } from "../../styles/icons";
 
 interface DropdownOption {
   label: string;

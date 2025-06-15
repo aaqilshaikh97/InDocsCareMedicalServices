@@ -1,9 +1,9 @@
 import React from "react";
 import type { CSSProperties, ReactNode } from "react";
-import { colors } from "../../constants/colors";
-import { spacing } from "../../constants/spacing";
-import { shadows } from "../../constants/shadows";
-import { borders } from "../../constants/borders";
+import { colors } from "../../styles/colors";
+import { spacing } from "../../styles/spacing";
+import { shadows } from "../../styles/shadows";
+import { borders } from "../../styles/borders";
 
 interface BoxProps extends React.HTMLAttributes<HTMLDivElement> {
   children: ReactNode;

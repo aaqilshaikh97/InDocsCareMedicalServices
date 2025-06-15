@@ -1,15 +1,19 @@
 import IMCTypography from "../../components/IMCTypography";
-import { fontSizes } from "../../constants/fontSizes";
-import { fontWeights } from "../../constants/fontWeights";
+import { fontSizes } from "../../styles/fontSizes";
+import { fontWeights } from "../../styles/fontWeights";
+import { useTranslation } from "react-i18next";
 
 const Blogs = () => {
+       const { t } = useTranslation();
+
   return (
     <>
      <IMCTypography variant="h3" size={fontSizes.lg} weight={fontWeights.semiBold}>
-        Blogs
+                {t("blogsPage.title")}
+
      </IMCTypography>
      <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        This page is under development
+        {t("blogsPage.underDevelopment")}
      </IMCTypography>
     </>
   );
