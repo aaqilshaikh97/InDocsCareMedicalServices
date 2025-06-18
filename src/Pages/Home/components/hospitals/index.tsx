@@ -141,8 +141,7 @@ const Hospitals = () => {
           weight={fontWeights.semiBold}
           color={colors.primaryDarkBlue}
         >
-          {/* {t("ourServices.ourServices")} */}
-          Some of Advanced Hospitals, Modern Technology, Exceptional Results...{" "}
+          {t("hospitals.sectionTitle")}
         </IMCTypography>
       </IMCBox>
 

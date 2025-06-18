@@ -151,8 +151,7 @@ const Care = () => {
           weight={fontWeights.semiBold}
           color={colors.primaryDarkBlue}
         >
-          {/* {t("ourServices.ourServices")} */}
-          Complete Care, Every Specialty
+          {t("Care.sectionTitle")}
         </IMCTypography>
       </IMCBox>
 

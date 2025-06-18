@@ -43,6 +43,7 @@
     "contactEmail": "Email: info@indocscare.com"
   },
   "hospitals": {
+    "sectionTitle": "Some of Advanced Hospitals, Modern  Technology,  Exceptional Results... ",
     "fortisMemorial": "Fortis Memorial Research Institute",
     "maxSuperSpeciality": "Max Super Specialty Hospital",
     "blkMax": "BLK Max",
@@ -109,6 +110,8 @@
     "Support with medications and pharmacy": "Support with medications and pharmacy"
   },
   "Care": {
+    "sectionTitle": "Some of Advanced Hospitals, Modern Technology, Exceptional Results...",
+
     "cardiology": "Specialized heart treatments for adults and pediatric patients.",
     "orthopedics": "Solutions for all joint issues, bone injuries, and deformities.",
     "neurosurgery": "Expert surgical care for brain and nervous system disorders.",
