@@ -6,4 +6,9 @@ export const spacing = {
   lg: "24px",
   xl: "32px",
   xxl: "48px",
+  xxxl: "64px",
+
+  buttonSm: "4px 12px",
+  buttonMd: "8px 16px",
+  buttonLg: "12px 24px",
 };

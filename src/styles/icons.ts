@@ -1,15 +1,43 @@
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import EmailIcon from '@mui/icons-material/Email';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import EmailIcon from "@mui/icons-material/Email";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
+import LaptopIcon from "@mui/icons-material/Laptop";
+import EditDocumentIcon from "@mui/icons-material/EditDocument";
+import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
+import TranslateIcon from "@mui/icons-material/Translate";
+import DirectionsTransitIcon from "@mui/icons-material/DirectionsTransit";
+import ApartmentIcon from "@mui/icons-material/Apartment";
+import Person2Icon from "@mui/icons-material/Person2";
+import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
+import NoteAltIcon from "@mui/icons-material/NoteAlt";
+import VaccinesIcon from "@mui/icons-material/Vaccines";
+import EditCalendarIcon from "@mui/icons-material/EditCalendar";
+import PublicIcon from "@mui/icons-material/Public";
+import LightbulbIcon from "@mui/icons-material/Lightbulb";
 
 export const Icons = {
   EmailIcon: EmailIcon,
   WhatsAppIcon: WhatsAppIcon,
   ArrowDropDown: ArrowDropDownIcon,
   ArrowDropUp: ArrowDropUpIcon,
-  Close:CloseIcon,
-  Menu:MenuIcon
+  Close: CloseIcon,
+  Menu: MenuIcon,
+  MedicalServices: MedicalServicesIcon,
+  LaptopIcon: LaptopIcon,
+  EditDocumentIcon: EditDocumentIcon,
+  CurrencyExchangeIcon: CurrencyExchangeIcon,
+  TranslateIcon: TranslateIcon,
+  DirectionsTransitIcon: DirectionsTransitIcon,
+  ApartmentIcon: ApartmentIcon,
+  EditCalendarIcon: EditCalendarIcon,
+  Person2Icon: Person2Icon,
+  RecordVoiceOverIcon: RecordVoiceOverIcon,
+  NoteAltIcon: NoteAltIcon,
+  VaccinesIcon: VaccinesIcon,
+  PublicIcon:PublicIcon,
+  LightbulbIcon:LightbulbIcon,
 };

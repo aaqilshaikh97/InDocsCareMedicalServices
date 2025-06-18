@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <IMCBox
-      backgroundColor={colors.lightGray}
+      backgroundColor={colors.iceBlue}
       style={{
         display: "flex",
         justifyContent: "space-between",

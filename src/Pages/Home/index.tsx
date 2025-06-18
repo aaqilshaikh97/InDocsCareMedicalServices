@@ -1,20 +1,39 @@
-import IMCTypography from "../../components/IMCTypography";
-import { fontSizes } from "../../styles/fontSizes";
-import { fontWeights } from "../../styles/fontWeights";
-import { useTranslation } from "react-i18next";
+import ContactUs from "./components/contactUs";
+import IMCBox from "../../components/IMCBox";
+import VisitDoctors from "./components/visitDoctor";
+// import { colors } from "../../styles/colors";
+import OurServices from "./components/ourServices";
+import Grid from "@mui/material/Grid";
+import HomeBg from "../../assets/images/home.jpeg"
+import { spacing } from "../../styles/spacing";
+import Care from "./components/Care"
+import HospitalsAndDoctors from "./components/hospitalsandDoctors";
+import Hospitals from "./components/hospitals";
 
 const Home = () => {
-     const { t } = useTranslation();
-
   return (
     <>
-     <IMCTypography variant="h3" size={fontSizes.lg} weight={fontWeights.semiBold}>
-        {t("home.home")}
-     </IMCTypography>
-    
-      <IMCTypography variant="body" size={fontSizes.sm} weight={fontWeights.light}>
-        {t("home.underDevelopment")}
-     </IMCTypography>
+      <IMCBox margin={spacing.none}
+         style={{
+    backgroundImage: `url(${HomeBg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  }}>
+        <Grid container spacing={2}>
+          <Grid size={{ xs: 12, md: 8, sm: 8 }}>
+            <VisitDoctors />
+          </Grid>
+          <Grid size={{ xs: 12, md: 4, sm: 4 }}>
+            <ContactUs />
+          </Grid>
+        </Grid>
+        <div></div>
+      </IMCBox>
+      <OurServices />
+      <Care/>
+      <HospitalsAndDoctors/>
+      <Hospitals/>
     </>
   );
 };

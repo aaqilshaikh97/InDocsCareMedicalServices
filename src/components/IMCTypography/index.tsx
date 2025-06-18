@@ -38,7 +38,6 @@ const IMCTypography: React.FC<TypographyProps> = ({
   const mergedStyle: React.CSSProperties = {
     fontSize: size || baseStyle.fontSize,
     fontWeight: weight || baseStyle.fontWeight,
-
     fontFamily: fontFamily.primary,
     color,
     ...style,
