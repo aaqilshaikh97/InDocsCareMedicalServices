@@ -11,7 +11,7 @@ import { borderRadius } from "../../../../styles/borderRadius";
 import { Icons } from "../../../../styles/icons";
 import { Trans } from "react-i18next";
 
-const HospitalsAndDoctors = () => {
+const SelectUs = () => {
   const { t } = useTranslation();
 
   return (
@@ -149,4 +149,4 @@ const styles: Record<string, CSSProperties> = {
   },
 };
 
-export default HospitalsAndDoctors;
+export default SelectUs;

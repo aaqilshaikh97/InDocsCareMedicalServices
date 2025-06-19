@@ -1,15 +1,15 @@
 import ContactUs from "./components/contactUs";
 import IMCBox from "../../components/IMCBox";
-import VisitDoctors from "./components/visitDoctor";
+import Welcome from "./components/Welcome";
 // import { colors } from "../../styles/colors";
 import OurServices from "./components/ourServices";
 import Grid from "@mui/material/Grid";
 import HomeBg from "../../assets/images/home.jpeg"
 import { spacing } from "../../styles/spacing";
 import Care from "./components/Care"
-import HospitalsAndDoctors from "./components/hospitalsandDoctors";
+import SelectUs from "./components/selectUs";
 import Hospitals from "./components/hospitals";
-
+import Doctors from "./components/doctors";
 const Home = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const Home = () => {
   }}>
         <Grid container spacing={2}>
           <Grid size={{ xs: 12, md: 8, sm: 8 }}>
-            <VisitDoctors />
+            <Welcome />
           </Grid>
           <Grid size={{ xs: 12, md: 4, sm: 4 }}>
             <ContactUs />
@@ -32,8 +32,9 @@ const Home = () => {
       </IMCBox>
       <OurServices />
       <Care/>
-      <HospitalsAndDoctors/>
+      <SelectUs/>
       <Hospitals/>
+      <Doctors/>
     </>
   );
 };

@@ -17,6 +17,8 @@ interface DropdownButtonProps {
   defaultValue?: string | number;
   buttonStyle?: React.CSSProperties;
   menuStyle?: React.CSSProperties;
+    dir?: "rtl" | "ltr"; // 👈 add this line
+
 }
 
 const IMCDropDown: React.FC<DropdownButtonProps> = ({
@@ -26,6 +28,8 @@ const IMCDropDown: React.FC<DropdownButtonProps> = ({
   defaultValue,
   buttonStyle,
   menuStyle,
+    dir = "ltr", 
+
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState<string | number | undefined>(
@@ -41,24 +45,25 @@ const IMCDropDown: React.FC<DropdownButtonProps> = ({
   const IconComponent = isOpen ? Icons.ArrowDropUp : Icons.ArrowDropDown;
 
   return (
-    <div style={{ position: "relative", display: "inline-block" }}>
+  <div style={{ position: "relative", display: "inline-block" }} dir={dir}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         style={{
-          padding: "10px 16px",
-          borderRadius: borderRadius.lg,
-          border: borders.thin,
-          background: colors.transparent,
-          cursor: "pointer",
-          minWidth: "140px",
-          textAlign: "left",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          gap: "8px",
-          ...buttonStyle,
-        }}
-      >
+        padding: "10px 16px",
+        borderRadius: borderRadius.lg,
+        border: borders.thin,
+        background: colors.transparent,
+        cursor: "pointer",
+        minWidth: "140px",
+        textAlign: dir === "rtl" ? "right" : "left",
+        direction: dir,
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        gap: "8px",
+        ...buttonStyle,
+      }}
+    >
         <span>
           {options.find((opt) => opt.value === selected)?.label || placeholder}
         </span>
@@ -70,7 +75,7 @@ const IMCDropDown: React.FC<DropdownButtonProps> = ({
           style={{
             position: "absolute",
             top: "100%",
-            right: 10,
+          [dir === "rtl" ? "left" : "right"]: 0,
 
             zIndex: 10,
             background: colors.teal,

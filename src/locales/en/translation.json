@@ -1,6 +1,5 @@
 {
   "welcome": "Welcome to InDocsCare",
-  "doctors": "Doctors",
   "blogs": "Blogs",
   "navbar": {
     "home": "Home",
@@ -110,8 +109,7 @@
     "Support with medications and pharmacy": "Support with medications and pharmacy"
   },
   "Care": {
-    "sectionTitle": "Some of Advanced Hospitals, Modern Technology, Exceptional Results...",
-
+    "sectionTitle": "Complete Care, Every Specialty ",
     "cardiology": "Specialized heart treatments for adults and pediatric patients.",
     "orthopedics": "Solutions for all joint issues, bone injuries, and deformities.",
     "neurosurgery": "Expert surgical care for brain and nervous system disorders.",
@@ -128,5 +126,14 @@
     "boneMarrow": "Bone marrow transplant services for matched and unmatched donors.",
     "fertility": "High-success fertility treatments with modern reproductive technology.",
     "ent": "Ear, nose, throat using advanced tools like endoscopes & microsurgery."
+  },
+  "language": {
+    "placeholder": "Choose language",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "doctorSection": {
+    "trustedExperts": "Trusted Experts Behind Every Successful Treatment",
+    "fewFromNetwork": "Just a Few from Our Network of Experts"
   }
 }

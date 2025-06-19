@@ -8,7 +8,7 @@ import { fontSizes } from "../../../../styles/fontSizes";
 import { fontWeights } from "../../../../styles/fontWeights";
 import { Trans } from "react-i18next";
 
-const VisitDoctor = () => {
+const Welcome = () => {
   const { t } = useTranslation();
 
   return (
@@ -70,4 +70,4 @@ const VisitDoctor = () => {
   );
 };
 
-export default VisitDoctor;
+export default Welcome;
