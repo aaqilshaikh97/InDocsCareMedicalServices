@@ -18,7 +18,14 @@ import VaccinesIcon from "@mui/icons-material/Vaccines";
 import EditCalendarIcon from "@mui/icons-material/EditCalendar";
 import PublicIcon from "@mui/icons-material/Public";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
-
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import BusinessIcon from "@mui/icons-material/Business";
+import CallIcon from "@mui/icons-material/Call";
+import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 export const Icons = {
   EmailIcon: EmailIcon,
   WhatsAppIcon: WhatsAppIcon,
@@ -38,6 +45,14 @@ export const Icons = {
   RecordVoiceOverIcon: RecordVoiceOverIcon,
   NoteAltIcon: NoteAltIcon,
   VaccinesIcon: VaccinesIcon,
-  PublicIcon:PublicIcon,
-  LightbulbIcon:LightbulbIcon,
+  PublicIcon: PublicIcon,
+  LightbulbIcon: LightbulbIcon,
+  FacebookIcon: FacebookIcon,
+  InstagramIcon: InstagramIcon,
+  LinkedInIcon: LinkedInIcon,
+  YouTubeIcon: YouTubeIcon,
+  BusinessIcon: BusinessIcon,
+  CallIcon: CallIcon,
+  DoubleArrowIcon: DoubleArrowIcon,
+  KeyboardDoubleArrowRightIcon: KeyboardDoubleArrowRightIcon,
 };

@@ -1,56 +1,43 @@
 import { useTranslation } from "react-i18next";
-import { colors } from "../../../../styles/colors";
-import IMCBox from "../../../../components/IMCBox";
-import { spacing } from "../../../../styles/spacing";
-import IMCTypography from "../../../../components/IMCTypography";
+import type { CSSProperties } from "react";
 import Grid from "@mui/material/Grid";
+
+import IMCBox from "../../../../components/IMCBox";
+import IMCTypography from "../../../../components/IMCTypography";
+import { proceduresData } from "./proceduresData";
+
+import { colors } from "../../../../styles/colors";
+import { spacing } from "../../../../styles/spacing";
 import { borders } from "../../../../styles/borders";
 import { fontSizes } from "../../../../styles/fontSizes";
 import { fontWeights } from "../../../../styles/fontWeights";
 import { shadows } from "../../../../styles/shadows";
-import type { CSSProperties } from "react";
 import { borderRadius } from "../../../../styles/borderRadius";
-import { careServicesData } from "./careServicesData";
 
-const Care = () => {
+const Procedures = () => {
   const { t } = useTranslation();
 
-  const careData = careServicesData.map((service) => ({
-    id: service.id,
-    images: (
-      <img
-        src={service.image}
-        alt={`care-${service.id}`}
-        style={styles.careIMG}
-      />
-    ),
-    body: t(service.translation),
-  }));
-
   return (
-    <IMCBox
-      margin={spacing.none}
-      backgroundColor={colors.white}
-      padding={spacing.xl}
-    >
-      <IMCBox
-        padding={spacing.none}
-        margin={spacing.none}
-        style={styles.centerBox}
-      >
+    <IMCBox backgroundColor={colors.iceBlue} padding={spacing.xl}>
+      <IMCBox style={styles.centerBox}>
         <IMCTypography
           variant="h2"
           size={fontSizes.xl}
           weight={fontWeights.semiBold}
           color={colors.primaryDarkBlue}
+          style={{ marginBottom: spacing.none }}
         >
-          {t("Care.sectionTitle")}
+          {t("procedures.sectionTitle")}
+        </IMCTypography>
+
+        <IMCTypography variant="body" size={fontSizes.md} color={colors.black}>
+          {t("procedures.sectionDescription")}
         </IMCTypography>
       </IMCBox>
 
       <Grid container spacing={2}>
-        {careData.map((service) => (
-          <Grid size={{ xs: 12, md: 3, sm: 3 }} key={service.id}>
+        {proceduresData.map((procedure) => (
+          <Grid size={{ xs: 12, md: 4, sm: 4 }} key={procedure.id}>
             <IMCBox
               padding={spacing.sm}
               backgroundColor={colors.white}
@@ -58,14 +45,17 @@ const Care = () => {
               boxShadow={shadows.medium}
               style={styles.cardBox}
             >
-              {service.images}
-
+              <img
+                src={procedure.image}
+                alt={t(procedure.translationKey)}
+                style={styles.image}
+              />
               <IMCTypography
                 color={colors.black}
                 variant="body"
                 style={styles.bodyText}
               >
-                {t(service.body)}
+                {t(procedure.translationKey)}
               </IMCTypography>
             </IMCBox>
           </Grid>
@@ -85,28 +75,27 @@ const styles: Record<string, CSSProperties> = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    flexDirection: "column",
+    textAlign: "center",
+    marginBottom: spacing.lg,
   },
   cardBox: {
     display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
     flexDirection: "column",
-    minHeight: "150px",
+    alignItems: "center",
+    textAlign: "center",
+    maxHeight: "350px",
   },
-  titleText: {
-    marginBottom: 0,
-  },
-  bodyText: {
-    marginTop: 0,
-  },
-  careIMG: {
+  image: {
     width: "100%",
-    height: "90%",
-    maxHeight: 300,
+    height: "250px",
     objectFit: "cover",
     borderRadius: borderRadius.sm,
     marginBottom: spacing.sm,
   },
+  bodyText: {
+    marginTop: 0,
+  },
 };
 
-export default Care;
+export default Procedures;

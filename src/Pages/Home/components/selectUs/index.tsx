@@ -17,13 +17,15 @@ const SelectUs = () => {
   return (
     <IMCBox
       margin={spacing.none}
-      backgroundColor={colors.white}
-      style={styles.container}
+      backgroundColor={colors.iceBlue}
+        padding={spacing.xl}
+
     >
       <IMCBox
         padding={spacing.none}
         margin={spacing.none}
         style={styles.centerBox}
+
       >
         <IMCTypography
           variant="h2"

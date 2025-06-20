@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { Typography, useMediaQuery, useTheme } from "@mui/material";
-import { EMAIL, WHATSAPP } from "../../constants/contact";
+import { useMediaQuery, useTheme } from "@mui/material";
+import { EMAIL, Mobile } from "../../constants/contact";
 import { Icons } from "../../styles/icons";
 import IMCBox from "../IMCBox";
 import { colors } from "../../styles/colors";
@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import IMCDropDown from "../IMCDropdown";
 import { fontSizes } from "../../styles/fontSizes";
 import { setLanguage } from "../../utils/session";
+import IMCTypography from "../IMCTypography";
 
 const Header = () => {
   const { EmailIcon, WhatsAppIcon } = Icons;
@@ -60,9 +61,9 @@ const Header = () => {
           style={{ display: "flex", alignItems: "center", gap: spacing.xs }}
         >
           <EmailIcon sx={{ color: colors.darkTeal, fontSize: fontSizes.lg }} />
-          <Typography variant="body2" color={colors.primaryDarkBlue}>
+          <IMCTypography variant="body" color={colors.primaryDarkBlue}>
             {EMAIL}
-          </Typography>
+          </IMCTypography>
         </IMCBox>
 
         <IMCBox
@@ -70,9 +71,9 @@ const Header = () => {
           style={{ display: "flex", alignItems: "center", gap: spacing.xs }}
         >
           <WhatsAppIcon sx={{ color: colors.teal, fontSize: fontSizes.lg }} />
-          <Typography variant="body2" color={colors.primaryDarkBlue}>
-            {WHATSAPP}
-          </Typography>
+          <IMCTypography variant="body" color={colors.primaryDarkBlue}>
+            {Mobile}
+          </IMCTypography>
         </IMCBox>
       </IMCBox>
 

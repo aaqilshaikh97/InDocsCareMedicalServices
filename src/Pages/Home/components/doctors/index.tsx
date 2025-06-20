@@ -23,7 +23,7 @@ const Doctors = () => {
     <IMCBox
       margin={spacing.none}
       padding={spacing.lg}
-      backgroundColor={colors.background}
+      backgroundColor={colors.white}
       style={styles.container}
     >
       <IMCBox
@@ -132,9 +132,8 @@ const styles: Record<string, CSSProperties> = {
     width: "100%",
     height: "300px",
     objectFit: "cover",
-    borderRadius: borderRadius.md,
+    borderRadius: borderRadius.sm,
     marginBottom: spacing.sm,
-    display: "block",
   },
   arrowButton: {
     position: "absolute",

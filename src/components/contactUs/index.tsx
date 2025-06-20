@@ -1,15 +1,15 @@
 import { useState, useRef } from "react";
-import IMCTypography from "../../../../components/IMCTypography";
-import IMCInput from "../../../../components/IMCInput";
-import { fontSizes } from "../../../../styles/fontSizes";
-import { fontWeights } from "../../../../styles/fontWeights";
+import IMCTypography from "../IMCTypography";
+import IMCInput from "../IMCInput";
+import { fontSizes } from "../../styles/fontSizes";
+import { fontWeights } from "../../styles/fontWeights";
 import { useTranslation } from "react-i18next";
-import { spacing } from "../../../../styles/spacing";
-import IMCBox from "../../../../components/IMCBox";
-import { colors } from "../../../../styles/colors";
-import IMCButton from "../../../../components/IMCButton";
-import { borderRadius } from "../../../../styles/borderRadius";
-import { shadows } from "../../../../styles/shadows";
+import { spacing } from "../../styles/spacing";
+import IMCBox from "../IMCBox";
+import { colors } from "../../styles/colors";
+import IMCButton from "../IMCButton";
+import { borderRadius } from "../../styles/borderRadius";
+import { shadows } from "../../styles/shadows";
 
 const ContactUs: React.FC = () => {
   const { t } = useTranslation();

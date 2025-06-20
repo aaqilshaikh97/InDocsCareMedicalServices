@@ -8,7 +8,7 @@ import Doctors from "./Pages/Doctors";
 import Hospitals from "./Pages/Hospitals";
 import Blogs from "./Pages/Blogs";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 function App() {
   return (
      <div>
@@ -24,6 +24,8 @@ function App() {
           <Route path="/Blogs" element={<Blogs />} />
 
         </Routes>
+      <Footer/>
+
     </div>
   );
 }

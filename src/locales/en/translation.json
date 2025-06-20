@@ -135,5 +135,23 @@
   "doctorSection": {
     "trustedExperts": "Trusted Experts Behind Every Successful Treatment",
     "fewFromNetwork": "Just a Few from Our Network of Experts"
-  }
+  },
+  "procedures": {
+  "sectionTitle": "Advanced Procedures & Technologies",
+  "sectionDescription": "A Preview of the Advanced Procedures We Offer",
+  "roboticSurgery": "Robotic-Assisted Surgery",
+    "laserEye": "Laser Eye Correction (LASIK)",
+    "cardiacCath": "Cardiac Catheterization",
+    "orthopedicImplants": "Orthopedic Implants",
+    "neuroSurgery": "Minimally Invasive Neurosurgery",
+    "oncologyTreatment": "Targeted Oncology Treatments"
+},
+"policy": {
+  "disclaimerLabel": "Disclaimer:",
+  "disclaimerBody": "InDocsCare Medical Services serves as a medical facilitation platform and does not diagnose or treat medical conditions. We help patients connect with qualified healthcare providers and share medically reviewed information for awareness only. Decisions regarding care remain solely with the patient and their chosen doctor. All website content is protected by copyright and legal rights.",
+  "allRight": "© 2025 InDocsCare Medical Services. All rights reserved."
+}
+
+
+
 }
