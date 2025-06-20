@@ -1,4 +1,3 @@
-import React from "react";
 import { Grid, Box } from "@mui/material";
 import IMCTypography from "../../IMCTypography";
 import { fontSizes } from "../../../styles/fontSizes";
