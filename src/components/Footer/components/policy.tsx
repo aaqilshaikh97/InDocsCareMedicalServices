@@ -15,13 +15,13 @@ const Policy = () => {
       padding={spacing.md}
       backgroundColor={colors.primaryDarkBlue}
     >
-      <IMCTypography variant="body" size={fontSizes.md} color={colors.white}>
+      <IMCTypography variant="body" size={fontSizes.base} color={colors.white}>
         <strong>{t("policy.disclaimerLabel")}</strong>{" "}
         {t("policy.disclaimerBody")}
       </IMCTypography>
       <IMCTypography
         variant="body"
-        size={fontSizes.md}
+        size={fontSizes.base}
         color={colors.white}
         weight={fontWeights.ultraBold}
         style={{ textAlign: "center" }}
