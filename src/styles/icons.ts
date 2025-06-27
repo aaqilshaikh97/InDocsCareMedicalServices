@@ -26,6 +26,10 @@ import BusinessIcon from "@mui/icons-material/Business";
 import CallIcon from "@mui/icons-material/Call";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import StarIcon from "@mui/icons-material/Star";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import CircleIcon from "@mui/icons-material/Circle";
 export const Icons = {
   EmailIcon: EmailIcon,
   WhatsAppIcon: WhatsAppIcon,
@@ -55,4 +59,9 @@ export const Icons = {
   CallIcon: CallIcon,
   DoubleArrowIcon: DoubleArrowIcon,
   KeyboardDoubleArrowRightIcon: KeyboardDoubleArrowRightIcon,
+  CheckCircleIcon:CheckCircleIcon,
+  StarIcon:StarIcon,
+  FiberManualRecordIcon:FiberManualRecordIcon,
+  CircleIcon:CircleIcon
+
 };

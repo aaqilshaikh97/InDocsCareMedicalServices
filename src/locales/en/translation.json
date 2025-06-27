@@ -150,8 +150,140 @@
   "disclaimerLabel": "Disclaimer:",
   "disclaimerBody": "InDocsCare Medical Services serves as a medical facilitation platform and does not diagnose or treat medical conditions. We help patients connect with qualified healthcare providers and share medically reviewed information for awareness only. Decisions regarding care remain solely with the patient and their chosen doctor. All website content is protected by copyright and legal rights.",
   "allRight": "© 2025 InDocsCare Medical Services. All rights reserved."
+},
+
+
+ "coronaryAngiogram": {
+    "title": "Coronary Angiogram: Purpose, Procedure & What to Expect",
+    "subheading": "Comprehensive Guide by InDocsCare Medical Services",
+
+   "whatIs": {
+  "title": "What is a Coronary Angiogram?",
+  "content1": "A <bold>coronary angiogram</bold> is an advanced heart imaging procedure that uses X-ray technology and a special contrast dye to create detailed visuals of the coronary arteries—the blood vessels that supply oxygen-rich blood to your heart.",
+  "content2": "It is one of the most accurate diagnostic tools for identifying <bold>blockages, narrowing, or abnormalities</bold> in these arteries. Doctors frequently use this procedure to investigate chest pain, shortness of breath, or other symptoms of heart disease, and to plan the most effective treatment options."
+},
+
+
+ "why": {
+  "title": "Why is a Coronary Angiogram Performed?",
+  "content": "A coronary angiogram helps in:",
+  "diagnosing": "<bold>Diagnosing Coronary Artery Disease (CAD):</bold> Detects narrowing or blockages that could cause heart attacks.",
+  "assessing": "<bold>Assessing Heart Function:</bold> Evaluates how well blood is flowing to your heart muscle.",
+  "guiding": "<bold>Guiding Treatment:</bold> Helps doctors decide whether you need medications, stents, angioplasty, or heart bypass surgery.",
+  "preventing": "<bold>Preventing Future Events:</bold> Identifies risks before they turn into major heart problems."
+},
+
+
+    "preparation": {
+         "title": "How to Prepare for Your Coronary Angiogram",
+    "content": "Proper preparation ensures safe and accurate results:",
+    "medicalHistory": "<bold>Medical History: </bold>Inform your doctor about any medications, supplements, or allergies (especially to iodine or contrast dye).",
+    "medicationAdjustment": "<bold>Medication Adjustment:</bold> You may need to pause certain medications such as blood thinners.",
+    "fasting": "<bold>Fasting: </bold>Avoid eating or drinking for 6 to 8 hours before the test.",
+    "arrangements": "<bold>Arrangements:</bold> Bring a companion to drive you home, as sedatives may make you feel drowsy."
+ 
+    },
+
+    "procedure": {
+      "title": "What Happens During the Procedure?",
+      "pretext": "The test takes place in a specialized catheterization lab (cath lab) and generally lasts 30–60 minutes.",
+      "items": [
+        "1. Setup: You will lie on a table, and an IV line will be inserted for medications and contrast dye. The insertion site (groin or wrist) will be cleaned and numbed with local anesthesia.",
+        "2. Catheter Insertion: A thin, flexible catheter is guided through a blood vessel to your heart using X-ray images.",
+        "3. Dye Injection: The contrast dye highlights your coronary arteries, making blockages or abnormalities visible on X-ray images.",
+        "4. Imaging: Several images will be taken to thoroughly examine your heart’s blood vessels.",
+        "5. Completion: After the catheter is removed, pressure will be applied to the site to prevent bleeding. You may be fitted with a bandage or compression device."
+      ]
+    },
+
+    "interpreting": {
+      "title": "Interpreting Your Results",
+      "items": [
+        "Normal Results: No significant narrowing or blockages—healthy coronary arteries.",
+        "Partial Blockages: May require lifestyle changes, medications, or stenting.",
+        "Severe Blockages: May necessitate angioplasty, stenting, or bypass surgery (CABG).",
+        "Other Abnormalities: Such as aneurysms or arterial spasms, may require specific interventions."
+      ],
+      "note": "Your cardiologist will discuss your results in detail and recommend the best course of action. You also can send us your reports to get proper detail of treatment."
+    },
+
+    "commonUses": {
+      "title": "Common Uses of a Coronary Angiogram",
+      "items": [
+        "Diagnosing suspected Coronary Artery Disease (CAD)",
+        "Diagnosing “Artery Blockages”",
+        "Investigating unexplained chest pain or shortness of breath",
+        "Evaluating damage after a heart attack",
+        "Planning for heart surgeries or procedures",
+        "Planning for CABG",
+        "Planning for Angioplasty with Stent Placement (Coronary Angioplasty)",
+        "Monitoring heart health in high-risk patients"
+      ]
+    },
+
+    "accuracyFactors": {
+      "title": "Factors Affecting Test Accuracy",
+      "items": [
+        "Excessive movement during the test",
+        "Allergic reactions to the contrast dye",
+        "Dense calcium deposits in the arteries",
+        "Unique anatomy or technical limitations"
+      ]
+    },
+
+    "treatment": {
+      "label": "Treatment Options After Abnormal Results",
+
+      "mild": {
+        "title": "Mild Blockages",
+        "items": [
+          "Lifestyle changes (heart-healthy diet, regular exercise, quitting smoking)",
+          "Medications (cholesterol control, blood pressure management, antiplatelet drugs)"
+        ]
+      },
+
+      "severe": {
+        "title": "Severe Blockages",
+        "items": [
+          "Angioplasty and Stenting — to open narrowed arteries",
+          "Coronary Artery Bypass Grafting (CABG) — to restore blood flow around blockages"
+        ],
+        "advanced": [
+          "InDocsCare provide you upgraded latest modern technologies in cardiac procedures & Surgeries",
+          "Now CABG can be performed using minimally invasive techniques through a small incision on the side of the chest — no need for opening the entire chest.",
+          "Our expert and highly experienced doctors utilize the latest advanced technologies to perform stent procedures with excellent success rates. In many cases, even severe blockages of 95% or more can be effectively treated with modern stenting techniques. However, outcomes may vary depending on each patient’s individual condition."
+        ],
+        "note": "Note: you can send us your medical reports to get our experts opinion."
+      }
+    },
+
+    "benefits": {
+      "title": "Benefits of a Coronary Angiogram",
+      "items": [
+        "Accurate Diagnosis — Clear images of coronary arteries",
+        "Guided Treatment — Enables effective, targeted therapy",
+        "Minimally Invasive — Small incision with fast recovery",
+        "Angioplasty & Stenting — No cut, No open procedures",
+        "Immediate Results — Get quick answers during the procedure"
+      ]
+    },
+
+    "final": {
+      "title": "Final Thoughts",
+      "content": "A coronary angiogram is a vital procedure for early detection and management of coronary artery disease. It enables doctors to act promptly—helping prevent future complications and improving heart health outcomes. If you or a loved one is experiencing heart-related symptoms or has risk factors for CAD, consult your healthcare provider or reach out to InDocsCare Medical Services."
+    },
+
+    "contact": {
+      "title": "For Medical Assistance and Consultation",
+      "contact": "Contact: InDocsCare Medical Services",
+      "email": "Email: info@indocscare.com, indocscare@gmail.com",
+      "bullets": [
+        "For detailed information and assistance, kindly contact us.",
+        "Free Consultation and Free Doctor’s Opinion"
+      ],
+      "note": "From your first contact to your safe return home, we’re with you.",
+      "extendedSupport": "We assist with online medical queries, visa support, airport pickup, accommodation, doctor appointments, hospital coordination, arrangement of required surgeries, medicines purchasing, any other support you may need in your treatment and even after-treatment follow-up — all at no extra cost. FREE OF COST"
+    }
+  }
 }
 
-
-
-}
